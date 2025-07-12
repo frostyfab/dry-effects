@@ -2,7 +2,7 @@
 
 require "dry-auto_inject"
 
-RSpec.describe "dry-auto_inject extnesion" do
+RSpec.describe "dry-auto_inject extension" do
   before(:all) do
     Dry::Effects.load_extensions(:auto_inject)
   end
